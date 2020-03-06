@@ -1,4 +1,4 @@
-package cn.feiyu.api;
+package cn.feiyu.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

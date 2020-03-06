@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.bind.annotation.RestController;
-import cn.feiyu.api.IHello;
+import cn.feiyu.client.IHello;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-public class ClientApplication {
+public class ApiApplication {
 
     @RestController
     class HelloController implements IHello {
@@ -19,7 +19,7 @@ public class ClientApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ClientApplication.class, args);
+        SpringApplication.run(ApiApplication.class, args);
     }
 
 }

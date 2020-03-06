@@ -1,0 +1,16 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: api
+
+##eureka配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7777/eureka/
+    #是否注册自己到eureka，要被其他服务调用时设置为true
+    register-with-eureka: true
+    #是否需要从eureka上获取注册信息，要调用其他服务时设置为true
+    fetch-registry: true
