@@ -28,9 +28,9 @@ implementation 'cn.feiyu:client:0.0.1-SNAPSHOT' # 在依赖中加入client包地
     
 - 方法二：IDE 启动
     - 启动应用服务
-![image](pics/idea执行方法截图.png)
+<img width="592" src="https://github.com/yibuyiyin/spring-eureka-feign-demo/raw/master/pics/idea%E6%89%A7%E8%A1%8C%E6%96%B9%E6%B3%95%E6%88%AA%E5%9B%BE.png" />
     - Client发布到本地代码库
-![image](pics/执行clientPublish截图.png)
+<img width="792" src="https://raw.githubusercontent.com/yibuyiyin/spring-eureka-feign-demo/master/pics/idea%E6%89%A7%E8%A1%8C%E6%96%B9%E6%B3%95%E6%88%AA%E5%9B%BE.png" />
 
 ### 项目涉及到的核心 spring 组件
 - spring-boot-starter-web
